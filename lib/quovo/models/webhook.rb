@@ -8,16 +8,6 @@ module Quovo
         secret
         url
       )
-
-      undef :opened
-      def opened
-        @opened.to_time
-      end
-
-      undef :updated
-      def updated
-        @updated.to_time
-      end
     end
   end
 end
