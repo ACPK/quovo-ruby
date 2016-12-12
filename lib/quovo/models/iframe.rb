@@ -4,12 +4,12 @@ module Quovo
       using Quovo::Refinements::Cast
 
       fields %i(
-        url
         token
         user
       )
 
-      def url
+      undef :token
+      def token
         "https://www.quovo.com/index.php?action=remoteauth&u=#{@user}&k=#{@token}"
       end
     end

@@ -24,6 +24,11 @@ module Quovo
       @iframe ||= Quovo::Api::Iframe.new
     end
 
+
+    def webook
+      @webooks ||= Quovo::Api::Webhooks.new
+    end
+
     def positions
       @positions ||= Quovo::Api::Positions.new
     end
