@@ -25,7 +25,7 @@ module Quovo
     end
 
 
-    def webbooks
+    def webhooks
       @webooks ||= Quovo::Api::Webhooks.new
     end
 
