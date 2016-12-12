@@ -20,6 +20,10 @@ module Quovo
       @users ||= Quovo::Api::Users.new
     end
 
+    def iframe
+      @iframe ||= Quovo::Api::Iframe.new
+    end
+
     def positions
       @positions ||= Quovo::Api::Positions.new
     end

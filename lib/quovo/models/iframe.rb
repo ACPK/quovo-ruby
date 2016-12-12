@@ -1,6 +1,6 @@
 module Quovo
   module Models
-    class Sync < Base
+    class Iframe < Base
       using Quovo::Refinements::Cast
 
       fields %i(
