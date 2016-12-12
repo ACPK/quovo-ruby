@@ -48,6 +48,7 @@ require 'quovo/api/iframe'
 require 'quovo/api/webhooks'
 require 'quovo/api/iframe'
 require 'quovo/api/positions'
+require 'quovo/api/history'
 require 'quovo/api'
 
 module Quovo
