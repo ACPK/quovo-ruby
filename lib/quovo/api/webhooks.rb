@@ -12,7 +12,7 @@ module Quovo
       end
 
       def create(params)
-        params.require!(:events, :is_active, :name, :secret, :url)
+        params.require!(:is_active, :name, :secret, :url)
         api(:post, '/webhooks', params)
           .fetch('webhook')
           .cast(Webhook)
