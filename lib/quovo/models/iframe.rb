@@ -10,7 +10,7 @@ module Quovo
 
       undef :token
       def token
-        "https://www.quovo.com/index.php?action=remoteauth&u=#{@user}&k=#{@token}"
+        "https://www.quovo.com/index.php?action=remoteauth&u=#{@user}&k=#{@token}&beta=true"
       end
     end
   end
